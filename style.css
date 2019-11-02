@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px;
+    width: 200px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 43.5%;
+    margin-top: 5%;
+    background-color: transparent;
+    border: 2px solid #ca6826;
+    z-index: 3;
+}
+
+.chair {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-70%, -70%);
+}
+
+.s1 {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255, 1), 
+    rgb(0, 0, 0, 0.2)),url(./img/fancy.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.s1::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+    top: 0;
+}
+
+.section h1 {
+    font-size: 54px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    background: linear-gradient(to left, #ca6826, #884b04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s1 h1 {
+    z-index: 3;
+    color: white;
+    font-weight: bold;
+}
+
+.s2 {
+    background: linear-gradient(to left top, #999898, rgba(80, 63, 51, 0.3));
+}
+
+.s2 h1 {
+    font-size: 48px;
+    background: linear-gradient(to left, #fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s2 p {
+    color: #fff;
+}
+
+.description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.more-description {
+    margin: 20%;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.description p  {
+    margin: 50px 0;
+}
+
+.more-description p  {
+    margin: 50px 0;
+    margin-top: 5%;
+}
+
+.couch {
+    height: 60%;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    transform: translate(-90%, -45%);
+}
